@@ -179,7 +179,12 @@
       if (resultados.length === 0) {
         resultadoDiv.innerHTML = `
           <div class="tarjeta-error">
-            No se encuentra afiliado/a
+            <p>No se encuentra afiliado/a</p>
+            <a class="boton-link"
+               href="https://docs.google.com/forms/d/e/1FAIpQLSewhKB8IsQyviWaC-_FFcK5ms0hdbrqitZ12d76XqjqzRfnag/viewform?usp=dialog"
+               target="_blank">
+              Toque aquí para afiliarse
+            </a>
           </div>
         `;
         return;
