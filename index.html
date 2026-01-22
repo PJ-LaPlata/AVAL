@@ -143,31 +143,6 @@
     .boton-link:hover {
       background-color: #146c43;
     }
-
-    /* ===== FOOTER TECNICO ===== */
-    .footer-tech {
-      text-align: center;
-      margin: 35px 0 20px;
-    }
-
-    .footer-tech a {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 12px;
-      color: rgba(0,0,0,0.4);
-      text-decoration: none;
-      opacity: 0.35;
-    }
-
-    .footer-tech a:hover {
-      opacity: 0.7;
-    }
-
-    .footer-tech img {
-      width: 14px;
-      height: 14px;
-    }
   </style>
 </head>
 <body>
@@ -185,23 +160,13 @@
   <div class="contenedor">
     <h1>Avalá la lista de Axel y Alak</h1>
 
-    <label for="busqueda">
-      Ingrese DNI o Apellido
-    </label>
+    <label for="busqueda">Ingrese DNI o Apellido</label>
 
     <input type="text" id="busqueda" placeholder="DNI o Apellido">
     <button onclick="buscar()">Buscar</button>
 
     <div id="resultado"></div>
   </div>
-
-  <!-- FOOTER TECNICO -->
-  <footer class="footer-tech">
-    <a href="https://github.com/larrrus" target="_blank" aria-label="Soporte técnico GitHub">
-      <span>Soporte técnico</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
-    </a>
-  </footer>
 
   <script>
     let datos = [];
